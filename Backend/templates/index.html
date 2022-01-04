@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}Mauricio - HomePage{% endblock title %}
+{% block content %}
+<ul class="sidebar-nav">
+<li><a href="{% url 'home' %}">
+Homepage
+</a>
+</li>
+<li><a href="{% url 'blog:home' %}">
+Blog
+</a>
+</li>
+</ul>
+{% endblock content %}
